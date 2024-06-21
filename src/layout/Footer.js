@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Float from "../components/floating_icon/float";
-
+import Float from '../components/Float'
 const Counter = dynamic(() => import("../components/Counter"), {
   ssr: false,
 });
