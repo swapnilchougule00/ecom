@@ -22,7 +22,7 @@ export const useCartStore = create((set) => ({
     totalCount && set({ cartCount: totalCount });
   },
 
-  handleLogout:()=>{
+  handleLogout: () => {
     localStorage.clear();
     set({ cartCount: 0 });
   },

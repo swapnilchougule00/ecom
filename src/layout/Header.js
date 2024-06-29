@@ -40,19 +40,10 @@ const Header = ({ header, contactDetials }) => {
     fetch();
   }, []);
 
-  // const [isOpen, setIsOpen] = useState(false);
   const isOpen = useCartStore((state) => state.isOpen);
   const category = useCartStore((state) => state.categorys);
   // const contsct = useCartStore((state) => state.categorys);
   // console.log(category)
-  const openModal = () => {
-    console.log("modal true");
-    setIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsOpen(false);
-  };
 
   const cartCount = useCartStore((state) => state.cartCount);
   useEffect(() => {
@@ -325,11 +316,9 @@ const DefaultHeader = ({
               </button>
             </div> */}
             {isOpen && (
-              <div className="modal">
+              <div className="modal absolute">
                 <div className="modal-content">
-                  <span className="close" onClick={closeModal}>
-                    &times;
-                  </span>
+                  <span className="close">&times;</span>
                   <p>This is a modal window!</p>
                 </div>
               </div>
