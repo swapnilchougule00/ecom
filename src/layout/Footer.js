@@ -108,13 +108,6 @@ const DefaultFooter = ({contactDetials }) => (
                   <a>About Us</a>
                 </Link>
               </li>
-              
-             
-              <li>
-                <Link href="/portfolio-grid">
-                  <a>Our Projects</a>
-                </Link>
-              </li>
               <li>
                 <Link href="/shop-grid">
                   <a>Best Products</a>
@@ -129,9 +122,17 @@ const DefaultFooter = ({contactDetials }) => (
               <li>
                 <Link href="/contact">Contact Us</Link>
               </li>
-             
               <li>
-                <Link href="/contact">Setting &amp; Privacy</Link>
+                <Link href="/return_refund_policy">Retrun &amp; Refund Policy</Link>
+              </li>
+              <li>
+                <Link href="/shipping_policy">Shipping Policy</Link>
+              </li>
+              <li>
+                <Link href="/terms_conditions">Terms &amp; Conditions</Link>
+              </li>
+              <li>
+                <Link href="/privacy_policy">Privacy Policy</Link>
               </li>
             </ul>
           </div>

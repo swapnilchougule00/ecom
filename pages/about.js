@@ -34,11 +34,6 @@ const About = () => {
                   alt="About"
                 />
 
-                {/* <img
-                  className="bg-shape"
-                  src="assets/images/about/about-bg-shape.png"
-                  alt="Shape"
-                /> */}
               </div>
             </div>
           </div>
@@ -49,105 +44,10 @@ const About = () => {
           className="shape"
         />
       </section>
-      {/* About Section End */}
-      {/* Features Section Start */}
-      {/* <section className="feature-section pb-100 rpb-70 rel z-1">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-4 col-md-6">
-              <div className="feature-item wow fadeInUp delay-0-2s">
-                <div className="content">
-                  <span className="number">01</span>
-                  <div className="image">
-                    <img
-                      src="assets/images/features/feature1.png"
-                      alt="Feature"
-                    />
-                  </div>
-                  <h4>Organic Vegetables</h4>
-                  <p>
-                    Quis autem vel eum reprehenderit quiea voluptate velit esse
-                    quam niyate smolestiae consequatur nulla
-                  </p>
-                </div>
-                <Link href="/service-details">
-                  <a className="read-more">
-                    Read More <i className="fas fa-angle-double-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="feature-item color-two wow fadeInUp delay-0-4s">
-                <div className="content">
-                  <span className="number">02</span>
-                  <div className="image">
-                    <img
-                      src="assets/images/features/feature2.png"
-                      alt="Feature"
-                    />
-                  </div>
-                  <h4>Organic Fruits</h4>
-                  <p>
-                    Quis autem vel eum reprehenderit quiea voluptate velit esse
-                    quam niyate smolestiae consequatur nulla
-                  </p>
-                </div>
-                <Link href="/service-details">
-                  <a className="read-more">
-                    Read More <i className="fas fa-angle-double-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="feature-item color-three wow fadeInUp delay-0-6s">
-                <div className="content">
-                  <span className="number">03</span>
-                  <div className="image">
-                    <img
-                      src="assets/images/features/feature3.png"
-                      alt="Feature"
-                    />
-                  </div>
-                  <h4>Agriculture &amp; Farming</h4>
-                  <p>
-                    Quis autem vel eum reprehenderit quiea voluptate velit esse
-                    quam niyate smolestiae consequatur nulla
-                  </p>
-                </div>
-                <Link href="/service-details">
-                  <a className="read-more">
-                    Read More <i className="fas fa-angle-double-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* Features Section End */}
-      {/* Gallery Area Start */}
 
-      {/* Gallery Area End */}
-      {/* About Section Start */}
       <section className="about-section-two rel z-1">
         <div className="container">
-          {/* <div className="row"> */}
-          {/* <div className="col-lg-6"> */}
-          {/* <div className="about-two-image not-rounded wow fadeInUp delay-0-2s">
-                <img
-                  className="image"
-                  src="assets/images/about/about-page-left.jpg"
-                  alt="About"
-                />
-                <img
-                  className="about-over"
-                  src="assets/images/about/about-left-over.png"
-                  alt="About"
-                />
-              </div> */}
-          {/* </div> */}
+          
           <div className="col-lg-8 justify-center m-auto">
             <div className="about-two-content pt-60 wow fadeInUp delay-0-4s">
               <div className="section-title mb-35">
@@ -170,51 +70,7 @@ const About = () => {
                   optimal health and happiness.
                 </p>
               </div>
-              {/* <div className="about-features mt-60">
-                  <div className="row">
-                    <div className="col-xl-4 col-md-6">
-                      <div className="about-feature-item wow fadeInUp delay-0-5s">
-                        <span className="number">1</span>
-                        <div className="icon">
-                          <i className="flaticon-offer" />
-                        </div>
-                        <h4>
-                          <Link href="/service-details">Discount Options</Link>
-                        </h4>
-                        <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
-                        <img src="assets/images/about/arrow.png" alt="Arrow" />
-                      </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                      <div className="about-feature-item wow fadeInUp delay-0-6s">
-                        <span className="number">2</span>
-                        <div className="icon">
-                          <i className="flaticon-return-box" />
-                        </div>
-                        <h4>
-                          <Link href="/service-details">
-                            Best Return Policy
-                          </Link>
-                        </h4>
-                        <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
-                        <img src="assets/images/about/arrow.png" alt="Arrow" />
-                      </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                      <div className="about-feature-item wow fadeInUp delay-0-7s">
-                        <span className="number">3</span>
-                        <div className="icon">
-                          <i className="flaticon-24-hours" />
-                        </div>
-                        <h4>
-                          <Link href="/service-details">Online Support</Link>
-                        </h4>
-                        <p>Sit amet consectetur adipis cing elit sed eiusmoe</p>
-                        <img src="assets/images/about/arrow.png" alt="Arrow" />
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+              
             </div>
           </div>
           {/* </div> */}
